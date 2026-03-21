@@ -20,6 +20,22 @@ Exceptional DataOps and AI Infrastructure Engineer combining deep software engin
 
 ### Professional Experience
 
+
+**Senior Software Engineer** | Quantaco | Melbourne, VIC  
+*October 2025 – March 2026*
+
+*   Refactored a large ERP Microservices FastAPI platform to use Pydantic V2 modelling, consistent exception handling, pagination, unit tests, smoke tests and significant performance speedup of over 100% for large dataset calls - utilizing AsyncIO, Redis and FastAPI best practices.
+*   Implemented **Terraform** for GitOps-driven continuous deployment, ensuring automated, reliable application updates across development, staging, and production environments.
+*   Engineered a robust **Redis**-based caching layer and session management system, significantly reducing database load and improving API response times by over 60%.
+*   Configured **Google Cloud Platform** services, such as ***CloudBuild/CloudRun/CloudFunctions*** to support blue/green deployment.
+*   Developed and maintained CI/CD pipelines using **Github Workflows**, automating testing, security scanning, and deployment processes to ensure rapid and secure software delivery.
+
+*** Architect and CTO *** | Azez | Melbourne, VIC  
+*April 2025 – September 2025*
+
+* Architected and implemented a RAG Agent using FastAPI, LangChain, Huggingface libraries and other AI tools to provide contra-indication information for drugs/medical interventions based on PubMed article summaries and LLM reasoning.
+* DeepDive Agent is deployed in a Kubernetes ecosystem comprising Gitea, ArgoCD, PostgreSQL Vector Search, MinIO, Hashicorp Vault, APISIX gateway and FastAPI microservices.
+
 **DevOps Engineer / Site Reliability Engineer** | Telstra Special Networks Engineering (SNE) | Melbourne, VIC  
 *October 2022 – April 2025*
 
@@ -28,6 +44,7 @@ Exceptional DataOps and AI Infrastructure Engineer combining deep software engin
 *   Built and maintained **S3 Data Lakes** for storing and processing large-scale datasets, integrating with Athena for interactive querying.
 *   Implemented CI/CD pipelines for ML model deployment using Jenkins, GitLab, and ArgoCD, reducing deployment time by 60%.
 *   Configured monitoring and observability for AI workloads using Prometheus/Grafana, tracking model performance metrics and resource utilization.
+*   Optimized national security data processing by deploying low-latency Spark jobs to edge nodes, reducing processing time by 40% compared to centralized cloud clusters.
 
 **Senior Software Engineer** | NetApp | Melbourne, VIC  
 *January 2020 – May 2022*
@@ -53,9 +70,14 @@ Exceptional DataOps and AI Infrastructure Engineer combining deep software engin
 ### Recent Projects
 
 **Traific Geospatial AI Platform**  
-*   Architected AI platform on Amazon EKS for geospatial data processing and ML inference
-*   Implemented **PostgreSQL with PostGIS** for complex spatial queries and geographic data handling
-*   Built S3-based data lake architecture for storing terabytes of geospatial imagery and sensor data
+*   Architected reproducible AI platform on **Amazon EKS** with secure VPC network isolation for geospatial data processing and ML inference.
+*   Provisioned infrastructure using **Terraform** and **Ansible** to manage **PostgreSQL 16.1** with **PostGIS** for complex spatial queries.
+*   Built scalable **S3 Data Lake** architecture for storing terabytes of geospatial imagery and sensor data.
+
+**LLM Data Pretraining Pipeline**  
+*   Engineered a high-performance **Python pipeline** (Pydantic V2, Typer) for processing unstructured records into tokenized datasets for LLM pre-training.
+*   Implemented automated PII removal, deduplication, and Parquet parallel processing to efficiently handle large-scale corpora.
+*   Containerized the entire pipeline using Docker for reproducible execution across disparate compute environments.
 
 ### Education
 

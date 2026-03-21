@@ -28,10 +28,25 @@ Elite DevOps and Cloud Infrastructure specialist with 15+ years designing and pr
 *   Deployed stateful workloads using **CloudNativePG** operator for high-availability PostgreSQL clusters, ensuring zero data loss and automatic failover.
 *   Configured and managed **Redis** clusters for session caching and high-throughput data processing, optimizing application performance.
 *   Implemented granular security controls including cross-cloud secrets management, dynamically injecting GCP credentials into Kubernetes Secrets via HashiCorp Vault.
-*   Configured **WSO2 API Gateway** with token-based authentication and log masking for multi-tenant LEA systems, achieving zero compliance violations.
-*   Maintained 99.99% uptime SLA for mission-critical WSO2 APIM platform through proactive monitoring (Prometheus/Grafana) and rapid incident response.
+*   Configured **WSO2** and **APISIX API Gateways** with token-based authentication and log masking for multi-tenant LEA systems, achieving zero compliance violations.
+*   Maintained 99.99% uptime SLA for mission-critical API platforms through proactive monitoring (Prometheus/Grafana) and rapid incident response.
 
-**Senior Software Engineer** | NetApp | Melbourne, VIC  
+**Senior Software Engineer** | Quantaco | Melbourne, VIC  
+*October 2025 – March 2026*
+
+*   Refactored a large ERP Microservices FastAPI platform to use Pydantic V2 modelling, consistent exception handling, pagination, unit tests, smoke tests and significant performance speedup of over 100% for large dataset calls - utilizing AsyncIO, Redis and FastAPI best practices.
+*   Implemented **Terraform** for GitOps-driven continuous deployment, ensuring automated, reliable application updates across development, staging, and production environments.
+*   Engineered a robust **Redis**-based caching layer and session management system, significantly reducing database load and improving API response times by over 60%.
+*   Configured **Google Cloud Platform** services, such as ***CloudBuild/CloudRun/CloudFunctions*** to support blue/green deployment.
+*   Developed and maintained CI/CD pipelines using **Github Workflows**, automating testing, security scanning, and deployment processes to ensure rapid and secure software delivery.
+
+*** Architect and CTO *** | Azez | Melbourne, VIC  
+*April 2025 – September 2025*
+
+* Architected and implemented a RAG Agent using FastAPI, LangChain, Huggingface libraries and other AI tools to provide contra-indication information for drugs/medical interventions based on PubMed article summaries and LLM reasoning.
+* DeepDive Agent is deployed in a Kubernetes ecosystem comprising Gitea, ArgoCD, PostgreSQL Vector Search, MinIO, Hashicorp Vault, APISIX gateway and FastAPI microservices.
+
+**Staff Engineer** | NetApp | Melbourne, VIC  
 *January 2020 – May 2022*
 
 *   Designed and provisioned cloud infrastructure using **Terraform** and **Ansible** for the Keystone Service Engine, supporting global storage provisioning across AWS, GCP, and Azure.
@@ -43,6 +58,7 @@ Elite DevOps and Cloud Infrastructure specialist with 15+ years designing and pr
 *October 2017 – December 2018*
 
 *   Provisioned and managed Spark clusters using **Terraform** and **Ansible**, enabling data scientists to process 500Gb+ daily LBS data.
+*   Optimized national security data processing by deploying low-latency Spark jobs to edge nodes, reducing processing time by 40% compared to centralized cloud clusters.
 *   Configured **Airflow** DAGs for complex data pipeline orchestration and automated containerized workflows.
 *   Built GCP PoC environment (GKE, PubSub, BigTable) evaluating cloud data platform alternatives.
 
