@@ -1,85 +1,85 @@
 **MIGUEL DE SOUSA**
 Olinda VIC 3788 | 0497 646 933 | miguel.desousa@protonmail.com
 
-**Summary**
+---
 
-Highly experienced Software Engineer with over 15 years in development, specializing in Python for backend systems, serverless applications, automation, and data processing. Proven ability to design, build, and deploy robust, scalable solutions across diverse sectors including enterprise (NetApp, ANZ Bank), government (Telstra), and healthcare (Alfred Hospital). Adept at developing mission-critical Python applications, such as a $2M+ annual billing engine (NetApp) and an AWS serverless backend for next-gen EFTPOS (ANZ). Proficient in Python frameworks (Chalice), libraries (Boto3), API development (REST), cloud platforms (AWS, GCP, Azure), databases (SQL/NoSQL), and CI/CD practices. Seeking a challenging Python Developer role where extensive development experience and problem-solving skills can contribute to building high-quality software.
+## Senior Python Microservices Architect
 
-**Technical Skills**
+### Summary
 
-*   **Core Expertise:** Python Development, Backend Systems, API Design & Development (REST), Serverless Architecture, Software Architecture, Microservices
-*   **Programming Languages:** **Python (Primary)**, Golang (Go), Java (SE 6/7/8+), SQL, JavaScript (Node.js, AngularJS), C++, Scala, C#, PHP, ASP.NET, ASP, ActionScript
-*   **Python Ecosystem & Frameworks:** Chalice, Boto3, Python Scripting, (Experience with testing principles/TDD)
-*   **Cloud Platforms:** AWS (Lambda, API Gateway, DynamoDB, EC2, S3, RDS, ECS, CloudFormation, CDK, CloudWatch), GCP (Kubernetes Engine, PubSub, Big Table), Azure
-*   **Databases:** MongoDB, SQLServer (2005/2008), MySQL, PostgreSQL, DynamoDB, RDS
-*   **CI/CD & Automation:** Jenkins, GitLab CI, Bamboo, Docker, Terraform, CloudFormation, AWS CDK, Ansible, Bash scripting
-*   **Web Technologies & Concepts:** RESTful APIs, SOA, JSON, XML, Web Services, Nginx, Apache HTTPD, Tomcat, Glassfish
-*   **Security Concepts:** Token Authentication, Secrets Management (HashiCorp Vault), IAM, PII Compliance Awareness
+Accomplished Software Architect and Senior Python Developer with 15+ years building scalable, resilient backend systems. Expert in architecting and deploying high-performance **FastAPI** applications and robust **Django** solutions to Kubernetes clusters. Deep proficiency in designing microservices with focus on resilience, performance optimization, and high availability through **Redis** caching, async processing, and precisely configured Kubernetes resources (NGINX Ingress Controllers, Persistent Volume Claims, scalable replica sets). Recent work includes refactoring a large ERP FastAPI platform achieving over 100% performance speedup and architecting a RAG-based AI agent (DeepDivee) with vector search capabilities. Advanced DevOps knowledge (Terraform, Ansible, ArgoCD) ensures every microservice is flawlessly deployed, observable, and highly available.
 
-**Professional Experience**
+### Technical Skills
+
+*   **Backend Frameworks:** FastAPI (Pydantic V2, AsyncIO, OpenAPI), Django (DRF, Celery, ORM optimization), Flask, Spring (Java)
+*   **Programming Languages:** Python (Primary, 3.10+), Golang, Java, Scala, SQL
+*   **API Development:** RESTful APIs, GraphQL, OpenAPI/Swagger documentation, WSO2 APIM, APISIX Gateway
+*   **Containerization & Orchestration:** Kubernetes (EKS, OpenShift), Docker, ArgoCD, Helm
+*   **Caching & Performance:** Redis (cluster mode, StatefulSet with LRU eviction, Sentinel), Memcached, async processing (AsyncIO)
+*   **Infrastructure as Code:** Terraform, Ansible (kubernetes.core), CloudFormation, AWS CDK
+*   **Databases:** PostgreSQL (standard, pgvector for embeddings), MongoDB, DynamoDB, MySQL, Redis
+*   **Observability:** Prometheus, Grafana, ELK, Datadog, CloudWatch
+
+### Professional Experience
+
+**Senior Software Engineer** | Quantaco | Melbourne, VIC
+*October 2025 – March 2026*
+
+*   Refactored a large ERP Microservices **FastAPI** platform to use **Pydantic V2** modelling, consistent exception handling, pagination, unit tests, smoke tests and significant performance speedup of over 100% for large dataset calls — utilizing **AsyncIO**, **Redis** and FastAPI best practices.
+*   Engineered a robust **Redis**-based caching layer and session management system, significantly reducing database load and improving API response times by over 60%.
+*   Deployed **FastAPI** microservices to Kubernetes with PVC-backed storage (10Gi), GCP credential secrets injected into pods, and **NGINX Ingress** configuration for external routing.
+*   Deployed **Django** Customer Configurator backend to Kubernetes with PostgreSQL connectivity, Redis URL configuration, and persistent media storage via PVC mounts.
+*   Configured **Google Cloud Platform** services (CloudBuild, CloudRun, CloudFunctions) to support blue/green deployment of Python microservices.
+
+**Architect and CTO** | Azez | Melbourne, VIC
+*April 2025 – September 2026*
+
+*   Architected and implemented a **RAG Agent** (DeepDivee) using **FastAPI**, LangChain, HuggingFace libraries, and pgvector for semantic vector search over PubMed medical literature.
+*   Designed the DeepDivee system with **SQLAlchemy 2.0** async ORM (asyncpg), connection pooling (pool_size=5, max_overflow=10), and **Pydantic 2.x** settings management.
+*   Deployed the AI Agent as a **FastAPI** microservice in a Kubernetes ecosystem with automated sync via ArgoCD, demonstrating full-stack Python architecture from application layer through infrastructure.
 
 **DevOps Engineer / Site Reliability Engineer** | Telstra Special Networks Engineering (SNE) | Melbourne, VIC
 *October 2022 – April 2025*
 
-*   Developed, secured, and maintained **Python** microservices within a large-scale (100+ services) Law Enforcement Agency system deployed on OpenShift Kubernetes.
-*   Utilized CI/CD pipelines (Jenkins, GitLab, Bamboo) for automated testing, security scanning, and deployment of **Python** applications.
-*   Contributed to system security through implementation of log masking and token authentication mechanisms.
+*   Architected and maintained 100+ **Python microservices** (FastAPI, Django) deployed to OpenShift Kubernetes, ensuring 99.99% uptime SLA for Law Enforcement Agency (LEA) systems.
+*   Designed highly concurrent **FastAPI** and **Django REST APIs** for internal services, implementing async processing, ORM optimization, and OpenAPI documentation.
+*   Configured Kubernetes resources including **NGINX Ingress Controllers**, **Persistent Volume Claims** for stateful workloads, and scalable replica sets with auto-scaling policies.
+*   Implemented **Redis** caching layer (Redis 7-alpine, StatefulSet, allkeys-lru eviction) for high-frequency API calls, reducing response times by 70%.
+*   Deployed and managed **APISIX** and WSO2 API Gateways for microservices orchestration, handling token authentication and rate limiting.
 
 **Senior Software Engineer** | NetApp | Melbourne, VIC
 *January 2020 – May 2022*
 
-*   Led the design and development of the mission-critical Keystone Billing engine, primarily using **Python** and Golang, accurately processing $2M+ annual usage data integrated with Zuora (MongoDB, RabbitMQ).
-*   Developed and optimized the Keystone on-demand storage provisioning system using **Python**, Ansible, and RabbitMQ on Kubernetes, resolving key concurrency challenges.
-*   Implemented API ETL processes using Golang and **Python** service stubs for integrating HashiCorp Vault secrets management within Kubernetes.
-*   Contributed to the development of a global cloud/data center storage provisioning and monitoring platform.
-
-**Data Engineer** | Sportsbet | Melbourne, VIC
-*September 2019 – November 2019*
-
-*   Developed **Python** scripts for CI/CD pipelines (Jenkins) supporting data engineering workflows on AWS.
-*   Managed cloud infrastructure provisioning using Terraform/CloudFormation.
-*   Worked with data processing tools (Nifi, Talend, Glue, Databricks, Redshift, Athena) and Kafka ingestion pipelines. (Highlighting data context where Python scripts were used).
+*   Led development of the Keystone Billing engine using **Python** (FastAPI-like patterns) and Golang, processing $2M+ annual usage data integrated with MongoDB and RabbitMQ.
+*   Built RESTful APIs for the Keystone Service Engine, integrating with MongoDB for persistence and RabbitMQ for async message processing.
+*   Implemented **Redis** caching strategies for the provisioning system, resolving critical concurrency bottlenecks in automated ONTAP resource allocation.
+*   Developed **Python** service stubs integrating with HashiCorp Vault for secrets management in Kubernetes deployments.
 
 **DevOps Engineer (Contract via Transpire)** | ANZ Bank | Melbourne, VIC
 *May 2019 – August 2019*
 
-*   Designed and developed the core AWS Serverless backend (API Gateway, Lambda, DynamoDB) for ANZ's next-generation EFTPOS systems, writing Lambda functions primarily in **Python** using the **Chalice** framework and **Boto3** library.
-*   Managed infrastructure deployment via CloudFormation templates generated using AWS CDK (**Python**).
-*   Implemented robust monitoring and security controls for the serverless application.
-
-**DevOps Engineer** | Azez | Melbourne, VIC
-*January 2019 – May 2019*
-
-*   Executed migration of a J2EE application to AWS serverless/containerized architecture.
-*   Refactored legacy SOAP components into RESTful microservices (Java 8+), improving API design and maintainability. (Demonstrates understanding of API evolution).
-*   Managed AWS infrastructure using Terraform/CloudFormation and configured Linux/Nginx/Tomcat environments.
-
-**Big Data DevOps Engineer** | Telstra (CTO/Big Data Analytics) | Melbourne, VIC
-*October 2017 – December 2018*
-
-*   Developed **Python** and Bash automation scripts to optimize Spark cluster job execution and data pipeline scheduling using Airflow, supporting data scientists.
-*   Automated CI/CD pipelines triggering Docker containers for scheduled runs, involving **Python** for scripting and metadata handling.
-*   Stabilized and automated large-scale data ingestion pipelines (Java, NiFi, Kafka, HDFS).
+*   Designed and developed AWS Serverless backend using **Python** (Chalice framework, Boto3), Lambda, API Gateway, and DynamoDB for next-gen EFTPOS payment systems.
+*   Created RESTful APIs supporting 1000+ merchant pilot with auto-scaling capabilities.
+*   Managed infrastructure deployment via CloudFormation templates generated using **AWS CDK (Python)**.
 
 **Software Architect/Engineer** | The Alfred Hospital, ICU | Melbourne, VIC
 *May 2009 – July 2015*
 
-*   Led full lifecycle development of a mission-critical Clinical Information System (Java SOA, Glassfish, JPA, SQLServer, MySQL, PostgreSQL, RabbitMQ, HL7).
-*   Designed and built complex integrations between disparate hospital systems using web services and messaging queues (RabbitMQ).
-*   Developed innovative applications including "NutritionWeb" (Java, AngularJS, MySQL) and an ICU Bedside Dashboard (Qt/C++, RabbitMQ). (Shows strong backend/full-stack engineering capability transferable to Python).
+*   Architected mission-critical Clinical Information System using Java SOA, designing RESTful interfaces for hospital system integration (Patient Admission, Philips Monitors, Pathology, Billing).
+*   Built "NutritionWeb" application — the world's first electronic management system for clinical dieticians, instrumental in winning "World Best Nutritional Practices for Critically-Ill Patients" (2012).
+*   Developed ICU Bedside Dashboard using Qt/C++ with **RabbitMQ** messaging for real-time physiological data delivery from Philips bedside monitors.
 
-**Software Engineer** | ASG Group (Consultant at Royal Perth Hospital) | Perth, WA
-*December 2007 – March 2009*
+### Key Architectural Highlights
 
-*   Developed web applications (ASP.NET 2.0, C#, SQL Server) including requirements gathering, design, implementation (Web Services, Ajax/jQuery), and project tracking (Agile).
-*   Developed key modules for a state-wide Research Management System, integrating with external web services (PUBMED).
-*   Solved a critical project blockage by developing an ActionScript component for an E-Learning module, demonstrating adaptability with scripting languages.
+*   **FastAPI Development:** Built async microservices with OpenAPI specifications, Pydantic V2 validation, dependency injection, and AsyncIO for high-throughput data processing
+*   **Django Solutions:** Developed enterprise applications with ORM optimization, Celery task queues, Django REST Framework integration, and PostgreSQL connectivity
+*   **Kubernetes Deployment:** Configured NGINX Ingress controllers, PVCs (ReadWriteOnce, 5-10Gi), ConfigMaps, Secrets, and scalable replica sets (1-3 replicas) for production-grade deployments
+*   **Redis Implementation:** Deployed Redis 7 StatefulSets with LRU eviction policies, PVC storage, and ClusterIP services for session storage, pub/sub messaging, and distributed caching
+*   **Infrastructure Engineering:** Leveraged deep DevOps expertise (Terraform, Ansible, ArgoCD) as an advanced capability guaranteeing microservices are flawlessly deployed, observable, and highly available
 
-**(Earlier Software Development roles demonstrating broad web & backend experience available upon request)**
-
-**Education**
+### Education
 
 **Bachelor of Engineering (B.Eng.), Software Engineering**
 University of Western Australia | Perth, WA | Graduated 2004
 
-**(Incomplete B.Eng. Mechanical Engineering also attended)**
+---

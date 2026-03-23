@@ -3,20 +3,35 @@ Olinda VIC 3788 | 0497 646 933 | miguel.desousa@protonmail.com
 
 **Summary**
 
-Highly accomplished Senior DevOps Engineer and Cloud & Security Specialist with over 15 years of comprehensive experience spanning enterprise (NetApp, ANZ Bank), government (Telstra SNE, Law Enforcement), and critical healthcare (Alfred Hospital ICU) sectors. Proven expertise in architecting, developing, securing, and managing complex, high-availability (24/7/365), and mission-critical systems. Adept at leading CI/CD pipeline implementation for large-scale microservice architectures (100+ services), significantly reducing security risks (achieving zero compliance violations in LEA projects, 95% reduction in billing errors), optimizing cloud expenditure (30% cost reduction), and boosting system performance (40% reduction in edge processing time). Deep proficiency in Kubernetes, multi-cloud environments (AWS, GCP, Azure), security hardening (PII, ISO 27001, Log Masking), infrastructure-as-code (Terraform, CloudFormation, CDK), and data engineering practices. Seeking to leverage extensive technical leadership and hands-on skills in a challenging DevOps, SRE, or Cloud Architect role.
+Highly accomplished Senior DevOps Engineer and Cloud & Security Specialist with over 15 years of comprehensive experience spanning enterprise (NetApp, ANZ Bank), government (Telstra SNE, Law Enforcement), and critical healthcare (Alfred Hospital ICU) sectors. Proven expertise in architecting, developing, securing, and managing complex, high-availability (24/7/365), and mission-critical systems. Adept at leading CI/CD pipeline implementation for large-scale microservice architectures (100+ services), significantly reducing security risks (achieving zero compliance violations in LEA projects, 95% reduction in billing errors), optimizing cloud expenditure (30% cost reduction), and boosting system performance (40% reduction in edge processing time). Recent work includes architecting AI RAG agents (DeepDivee), refactoring high-performance FastAPI ERP platforms (>100% speedup), and building cloud-native geospatial AI platforms on AWS EKS. Deep proficiency in Kubernetes, multi-cloud environments (AWS, GCP, Azure), security hardening (PII, ISO 27001, Log Masking), infrastructure-as-code (Terraform, CloudFormation, CDK), and data engineering practices. Seeking to leverage extensive technical leadership and hands-on skills in a challenging DevOps, SRE, or Cloud Architect role.
 
 **Technical Skills**
 
-*   **DevOps/Cloud Platforms:** OpenShift, Kubernetes (K8s), AWS (EC2, Lambda, API Gateway, DynamoDB, RDS, ECS, S3, Redshift, Athena, Glue, CloudWatch, CloudTrail, CloudFront, Cognito, CodeBuild, CodePipeline, SNS), GCP (Kubernetes Engine, PubSub, Big Table), Azure (Cloud Services, Azure SQL, Blob Storage, WAF, SDN), Docker, Serverless Architectures
-*   **CI/CD & Automation:** Jenkins, GitLab CI, Bamboo, Ansible, Terraform, CloudFormation, AWS CDK, Puppet, Python scripting, Bash scripting
-*   **Programming Languages:** Python, Golang (Go), Java (SE 6/7/8+), Scala, SQL, C++, JavaScript (Node.js, AngularJS), PHP, ASP, ASP.NET, C#, ActionScript
-*   **Security:** WSO2 API Management (APIM), Token Authentication, Log Masking, PII Compliance (ISO 27001), HashiCorp Vault, Network Security (Firewalls, WAF, Security Groups, DMZs, VPNs, SDN), IAM, Enterprise Library Cryptography
-*   **Data Engineering & MLOps:** Apache Spark, Apache Kafka, Airflow, RabbitMQ, MongoDB, Nifi, Talend, Databricks, Elasticsearch, Logstash, Kibana (ELK), Grafana, Loki, Prometheus, Datadog, SumoLogic, HDFS, Zookeeper, SQLServer (2005/2008), MySQL, PostgreSQL, Mirth (HL7 Broker), HL7
-*   **Operating Systems & Networking:** Linux (RHEL, CentOS), Windows Server, Nginx, Apache HTTPD, Tomcat, Glassfish, Squid Proxy, Networking concepts (TCP/IP, UDP, DNS, Load Balancing)
-*   **Frameworks & Libraries:** Spring (Java, .NET), Chalice (Python), Boto3, Qt/C++, JPA, Cayenne, Jersey, Enterprise Library (.NET), Composite UI Application Block (CAB), jQuery, AJAX
-*   **Legacy & Other:** Adobe Experience Manager (AEM), J2EE, SOAP, XML/XSLT, Protel (PCB Design)
+*   **DevOps/Cloud Platforms:** OpenShift, Kubernetes (K8s, EKS), ArgoCD, Helm, AWS (EC2, Lambda, API Gateway, DynamoDB, RDS, ECS, S3, Redshift, Athena, Glue, CloudWatch, CloudTrail, CloudFront, Cognito), GCP (GKE, PubSub, BigTable, CloudRun, CloudFunctions), Azure (Cloud Services, Azure SQL, Blob Storage, WAF, SDN), Docker, Serverless Architectures
+*   **CI/CD & Automation:** Jenkins, GitLab CI, Bamboo, GitHub Workflows, Ansible, Terraform, CloudFormation, AWS CDK, Puppet, Python scripting, Bash scripting
+*   **Programming Languages:** Python (FastAPI, Django, Pydantic V2), Golang (Go), Java (SE 6/7/8+), Scala, SQL, C++, JavaScript (Node.js, AngularJS)
+*   **AI/ML Infrastructure:** RAG Agents (LangChain, HuggingFace), pgvector, sentence-transformers, LLM data pretraining pipelines (BPE tokenization, PII removal, deduplication), S3 Data Lakes for ML
+*   **Security:** WSO2 API Management (APIM), APISIX API Gateway, Token Authentication, Log Masking, PII Compliance (ISO 27001), HashiCorp Vault, Network Security (Firewalls, WAF, Security Groups, DMZs, VPNs, SDN), IAM
+*   **Data Engineering & MLOps:** Apache Spark, Apache Kafka, Airflow, RabbitMQ, MongoDB, Nifi, Talend, Databricks, Elasticsearch, Logstash, Kibana (ELK), Grafana, Loki, Prometheus, Datadog, HDFS, Zookeeper, PostgreSQL (PostGIS, CloudNativePG), MySQL, Redis
+*   **Operating Systems & Networking:** Linux (RHEL, CentOS), Windows Server, Nginx, Squid Proxy, Networking concepts (TCP/IP, UDP, DNS, Load Balancing)
+*   **Frameworks & Libraries:** FastAPI, Django, Spring (Java), Chalice (Python), Boto3, Qt/C++, JPA, Cayenne
 
 **Professional Experience**
+
+**Senior Software Engineer** | Quantaco | Melbourne, VIC
+*October 2025 – March 2026*
+
+*   Refactored a large ERP Microservices FastAPI platform to use Pydantic V2 modelling, consistent exception handling, pagination, unit tests, smoke tests and significant performance speedup of over 100% for large dataset calls - utilizing AsyncIO, Redis and FastAPI best practices.
+*   Implemented **Terraform** for GitOps-driven continuous deployment, ensuring automated, reliable application updates across development, staging, and production environments on GCP.
+*   Engineered a robust **Redis**-based caching layer and session management system, significantly reducing database load and improving API response times by over 60%.
+*   Configured **Google Cloud Platform** services (CloudBuild, CloudRun, CloudFunctions) to support blue/green deployment strategies.
+*   Developed and maintained CI/CD pipelines using **GitHub Workflows**, automating testing, security scanning, and deployment processes.
+
+**Architect and CTO** | Azez | Melbourne, VIC
+*April 2025 – September 2025*
+
+*   Architected and implemented a RAG Agent (DeepDivee) using FastAPI, LangChain, HuggingFace libraries, and other AI tools to provide contra-indication information for drugs/medical interventions based on PubMed article summaries and LLM reasoning.
+*   Deployed the DeepDivee Agent in a Kubernetes ecosystem comprising Gitea, ArgoCD, PostgreSQL with pgvector for Vector Search, MinIO, HashiCorp Vault, APISIX API Gateway, and FastAPI microservices.
 
 **DevOps Engineer / Site Reliability Engineer** | Telstra Special Networks Engineering (SNE) | Melbourne, VIC
 *October 2022 – April 2025*

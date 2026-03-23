@@ -1,105 +1,86 @@
 **MIGUEL DE SOUSA**
 Olinda VIC 3788 | 0497 646 933 | miguel.desousa@protonmail.com
 
-**Summary**
+---
 
-Highly accomplished Senior DevOps/DataOps Engineer and Cloud & Security Specialist with over 15 years shaping resilient, scalable infrastructure across enterprise (NetApp, ANZ), government (Telstra SNE), and critical healthcare (Alfred ICU). Proven leader in architecting, automating, securing, and managing complex, high-availability (24/7/365) systems and data pipelines. Expert in implementing CI/CD for large-scale microservices (100+), optimizing data ingestion (500Gb+ daily), driving significant security enhancements (zero LEA compliance violations, 95% billing error reduction), and boosting system/data processing performance (40% edge processing time reduction). Deep proficiency in Kubernetes/OpenShift, multi-cloud (AWS, GCP, Azure), Infrastructure-as-Code (Terraform, CDK, Ansible), data engineering tools (Spark, Kafka, Airflow), observability stacks (Prometheus, Grafana, Datadog), and security best practices (PII, ISO 27001, Vault). Seeking a challenging DevOps, DataOps, or SRE role leveraging extensive technical leadership and hands-on automation expertise.
+## AI Infrastructure & DataOps Engineer
 
-**Technical Skills**
+### Summary
 
-*   **Cloud Platforms & Containerization:** AWS (EC2, Lambda, API GW, DynamoDB, RDS, ECS, S3, Redshift, Athena, Glue, CloudWatch, CloudTrail, etc.), GCP (GKE, PubSub, Big Table), Azure (Cloud Services, SQL, Blob, WAF, SDN), OpenShift, Kubernetes (K8s), Docker, Serverless Architectures
-*   **CI/CD & Automation:** Jenkins, GitLab CI, Bamboo, Ansible, Terraform, CloudFormation, AWS CDK, Puppet, Python, Golang, Bash scripting
-*   **Data Engineering & DataOps:** Apache Spark, Apache Kafka, Airflow, RabbitMQ, Nifi, Talend, Databricks, Elasticsearch, Logstash, Kibana (ELK), HDFS, Zookeeper, MongoDB, SQLServer, MySQL, PostgreSQL, Mirth (HL7)
-*   **Monitoring & Observability:** Prometheus, Grafana, Loki, Datadog, SumoLogic, CloudWatch, Ambari, Splunk
-*   **Security:** WSO2 APIM, HashiCorp Vault, Token Auth, Log Masking, PII/ISO 27001 Compliance, Network Security (Firewalls, WAF, Sec Groups, DMZs, VPNs, SDN), IAM
-*   **Programming & Databases:** Python, Golang (Go), Java (SE 6/7/8+), Scala, SQL, C++, JavaScript (Node.js, AngularJS)
-*   **Operating Systems & Networking:** Linux (RHEL, CentOS), Windows Server, Nginx, Apache HTTPD, Tomcat, Squid Proxy, TCP/IP, UDP, DNS, Load Balancing
+Exceptional AI Infrastructure and DataOps Engineer combining deep software engineering foundations with cutting-edge ML operations expertise. Proven capability to orchestrate intensive AI/ML workloads on **Amazon EKS** with GPU-enabled node pools, build scalable **S3 Data Lakes**, and handle complex spatial queries using **PostgreSQL with PostGIS**. Experienced provisioning environments for **LLM data pre-training** and deploying autonomous **DeepDivee AI Agents** to Kubernetes. Architect of the **Traific Geospatial AI Platform** — a cloud-native system for ingesting, processing, and analyzing geospatial traffic data at scale. Expert in Infrastructure-as-Code (**Terraform**, **Ansible**) applied directly to AI/ML environments, bridging traditional data engineering with modern AI infrastructure. Seeking an AI Infrastructure or DataOps leadership role.
 
-**Professional Experience**
+### Technical Skills
+
+*   **AI/ML Infrastructure:** Amazon EKS (Kubernetes for ML workloads), GPU node pools, LLM data pre-training environments (BPE tokenization, PII removal, deduplication), RAG Agent deployment (LangChain, HuggingFace, pgvector), ML model serving
+*   **Data Platforms & Geospatial:** S3 Data Lakes (versioned, encrypted), PostgreSQL 16.1 with PostGIS (postgis, postgis_raster, pg_stat_statements), Apache Spark, Kafka, Airflow, Databricks, Redshift, Athena, Glue, Nifi, Talend
+*   **Infrastructure as Code:** Terraform (AWS provider 5.x — EKS, VPC, RDS, S3 modules), Ansible (kubernetes.core), AWS CDK, CloudFormation
+*   **Containerization & GitOps:** Kubernetes (EKS 1.29, OpenShift), Docker, ArgoCD, Helm
+*   **MLOps & Observability:** Prometheus, Grafana, ELK, Datadog, CloudWatch, MLflow
+*   **Programming:** Python (FastAPI, Pydantic V2, Typer, Pandas, PyArrow), Golang, Scala, Java
+*   **Streaming & Messaging:** Apache Kafka, MQTT (EMQX 5.8), RabbitMQ, Redis, Celery
+
+### Professional Experience
+
+**Senior Software Engineer** | Quantaco | Melbourne, VIC
+*October 2025 – March 2026*
+
+*   Refactored a large ERP Microservices FastAPI platform to use Pydantic V2 modelling, consistent exception handling, pagination, unit tests, smoke tests and significant performance speedup of over 100% for large dataset calls - utilizing AsyncIO, Redis and FastAPI best practices.
+*   Implemented **Terraform** for GitOps-driven continuous deployment, ensuring automated, reliable application updates across development, staging, and production environments.
+*   Engineered a robust **Redis**-based caching layer and session management system, significantly reducing database load and improving API response times by over 60%.
+
+**Architect and CTO** | Azez | Melbourne, VIC
+*April 2025 – September 2025*
+
+*   Architected and implemented a **RAG Agent** (DeepDivee) using FastAPI, LangChain, HuggingFace sentence-transformers (all-MiniLM-L6-v2), and pgvector for semantic vector search over medical literature.
+*   Deployed the AI Agent in a Kubernetes ecosystem with **PostgreSQL Vector Search** (768-dimension embeddings, cosine similarity), MinIO object storage, and FastAPI microservices, demonstrating full AI infrastructure lifecycle management.
 
 **DevOps Engineer / Site Reliability Engineer** | Telstra Special Networks Engineering (SNE) | Melbourne, VIC
 *October 2022 – April 2025*
 
-*   Engineered, secured, and operated robust CI/CD pipelines (Jenkins, GitLab, Bamboo) deploying 100+ critical LEA microservices (Java, Python, Scala, Go) to OpenShift Kubernetes, achieving zero compliance violations.
-*   Implemented automated testing, SAST/DAST security scanning, artifact management, and auto-scaling deployment strategies within pipelines, monitored via Prometheus/Grafana.
-*   Enhanced security posture by implementing granular log masking and token-based authentication for WSO2 API Gateway, ensuring PII protection and LEA compliance across multi-tenant systems.
-*   Served as primary SRE for mission-critical WSO2 APIM platform, managing vendor relations, patching, incident response, and maintaining 99.99% uptime.
-*   Optimized national security data processing by deploying low-latency Spark jobs to edge nodes, reducing processing time by 40%.
+*   Provisioned and managed **Amazon EKS** clusters for hosting intensive AI/ML workloads, configuring GPU-enabled node pools and auto-scaling for model training and inference.
+*   Orchestrated deployment of autonomous **DeepDivee AI Agents** to Kubernetes, implementing auto-scaling, self-healing, and Prometheus/Grafana monitoring for model performance metrics and resource utilization.
+*   Built and maintained **S3 Data Lakes** (versioned, AES256 encrypted) for storing and processing large-scale datasets, integrating with Athena for interactive querying.
+*   Implemented CI/CD pipelines for ML model deployment using Jenkins, GitLab, and ArgoCD, reducing deployment time by 60%.
+*   Optimized national security data processing by deploying low-latency **Spark** jobs to edge nodes, reducing processing time by 40% compared to centralized cloud clusters.
 
-**Senior Software Engineer (DevOps/Platform Focus)** | NetApp | Melbourne, VIC
+**Senior Software Engineer** | NetApp | Melbourne, VIC
 *January 2020 – May 2022*
-*NetApp is a global leader in cloud data services and data management.*
 
-*   Led development on the Keystone Service Engine platform, focusing on automated cloud/data center storage provisioning and monitoring (Python, Ansible, RabbitMQ on Kubernetes), resolving critical concurrency issues for ONTAP resource allocation.
-*   Engineered the Keystone Billing engine (Python, Golang, MongoDB, RabbitMQ) handling complex data processing for $2M+ annual usage, integrating with Zuora via automated data flows, reducing invoice errors by 95%.
-*   Implemented API ETL project (Golang on Kubernetes) brokering billing/financial data between Cisco, NetApp, Zuora.
-*   Integrated HashiCorp Vault for secure secrets management within Kubernetes deployments (Python/Golang stubs).
-*   Technologies: Kubernetes, Ansible, Python, Golang, RabbitMQ, MongoDB, Grafana/Loki, GCP, Azure, AWS, Zuora.
+*   Designed and built data pipelines handling $2M+ annual usage data using Python, Golang, RabbitMQ, and MongoDB for the Keystone Billing engine.
+*   Built automated provisioning systems on Kubernetes enabling resource allocation for storage workloads across multi-cloud environments (AWS, GCP, Azure).
+*   Integrated with multiple cloud providers demonstrating multi-cloud data platform expertise for a global storage-as-a-service platform.
 
 **Data Engineer** | Sportsbet | Melbourne, VIC
 *September 2019 – November 2019*
-*Sportsbet is a major Australian online wagering provider.*
 
-*   Managed and automated large-scale AWS data lake resources (10TB+ daily processing) using Nifi, Talend, Glue, Databricks, Redshift, Athena.
-*   Designed and implemented Talend workflows for automated PII sanitization of Zendesk chat logs prior to Kafka ingestion, ensuring data privacy compliance.
-*   Managed cloud infrastructure provisioning (Terraform/CloudFormation) and CI/CD pipelines (Python/Jenkins) for data engineering workflows.
-*   Configured comprehensive monitoring and alerting for data pipelines using CloudWatch, SumoLogic, PagerDuty, SNS, and ELK.
-
-**DevOps Engineer (Contract via Transpire)** | ANZ Bank | Melbourne, VIC
-*May 2019 – August 2019*
-*ANZ is one of Australia's largest banking institutions.*
-
-*   Designed and developed the AWS Serverless backend (API Gateway, Lambda/Python/Chalice/Boto3, DynamoDB) for next-gen EFTPOS systems.
-*   Managed infrastructure deployment via IaC (CloudFormation templates generated using AWS CDK/Python).
-*   Implemented robust monitoring and security controls using CloudWatch, CloudTrail, CloudFront, Cognito.
-
-**DevOps Engineer** | Azez | Melbourne, VIC
-*January 2019 – May 2019*
-
-*   Executed lift-and-shift migration of a large J2EE application from VMWare to AWS serverless/containerized (ECS) architecture within secure VPCs.
-*   Refactored legacy SOAP components to RESTful microservices (Java 8+), enhancing deployability.
-*   Managed AWS infrastructure (Lambda, API GW, DynamoDB, RDS, ECS, etc.) using Terraform and CloudFormation.
-*   Configured and hardened Linux (RHEL7), Nginx, Tomcat, and Squid proxy environments.
+*   Managed large-scale **AWS data lake** resources (10TB+ daily processing) using Nifi, Talend, AWS Glue, Databricks, Redshift, and Athena.
+*   Designed Talend workflows for automated **PII sanitization** of chat logs prior to Kafka ingestion, ensuring data privacy compliance.
+*   Built data pipelines using **Kafka** for real-time data streaming and processing at scale.
 
 **Big Data DevOps Engineer** | Telstra (CTO/Big Data Analytics) | Melbourne, VIC
 *October 2017 – December 2018*
-*Telstra is Australia's leading telecommunications company.*
 
-*   Optimized Spark cluster job execution (Scala, Python, Java) and developed automation scripts (Bash/Python) for data scientists.
-*   Scheduled complex data processing DAGs using Airflow.
-*   Automated CI/CD pipelines triggering Docker containers for scheduled data runs, capturing metadata in Elasticsearch/Kibana for observability.
-*   Monitored large-scale cluster performance/capacity (Datadog, Ambari).
-*   Stabilized and automated ingestion of massive LBS data (500Gb+ daily) using Java, NiFi, Kafka, HDFS, eliminating data loss and ensuring reliability via Datadog monitoring.
-*   Delivered computationally intensive models (Sydney Metro) using Spark, Hadoop (Yarn, HDFS), Kafka, Zookeeper.
-*   Built PoC cluster in GCP (GKE, PubSub, Big Table) evaluating cloud data platform alternatives.
-*   Technologies: Spark, Hadoop, Yarn, Scala, Python, Java, NiFi, Airflow, Kafka, HDFS, Zookeeper, Docker, Kubernetes, Mesos, AWS Redshift, GCP, Centos, Nginx, Jenkins, GitLab, Ansible, Terraform.
+*   Optimized **Spark** cluster job execution (Scala, Python, Java) for data scientists, processing 500Gb+ daily LBS data with zero data loss.
+*   Built and maintained data pipelines using **Airflow** DAGs, **Kafka**, **NiFi**, and **HDFS**, automating containerized workflows with Docker.
+*   Delivered computationally intensive Population-Volume and Origin-Destination models for the Sydney Metro project using Spark, Hadoop, Kafka, and Zookeeper.
+*   Built GCP PoC cluster (GKE, PubSub, BigTable) evaluating cloud-native data platform alternatives.
 
-**DevOps Engineer** | Telstra Health | Melbourne, VIC
-*February 2016 – September 2017*
-*Telstra Health provides eHealth solutions across Australia.*
+### Recent Projects
 
-*   Deployed integrated healthcare components (AEM, Java REST servlets, Angular UI) into secure Azure cloud environment using SDN for DMZ implementation.
-*   Leveraged Azure services (MongoDB, Azure SQL, Blob, WAF, SDN) for high-availability solutions.
-*   Designed and delivered a Security Vulnerability assessment tool integrating Atlassian (Jira, Bamboo) with Splunk for automated ticketing, patch management (via Docker builds), and deployment validation.
-*   Managed infrastructure using Puppet.
-*   Technologies: AEM, Java, Angular, Azure, MongoDB, Azure SQL, Puppet, WAF, SDN, Jira, Bamboo, Splunk, Docker, Linux (RHEL, Centos), Windows, Nginx, Squid, httpd, Tomcat.
+**Traific Geospatial AI Platform**
+*   Architected a reproducible AI platform on **Amazon EKS 1.29** with secure VPC network isolation (public/private subnets across 3 AZs) for geospatial data processing and ML inference.
+*   Provisioned infrastructure using **Terraform** (AWS provider 5.x) managing **PostgreSQL 16.1** with **PostGIS** extensions (postgis, postgis_raster, pg_stat_statements) for complex spatial queries.
+*   Built scalable **S3 Data Lake** architecture (versioned, AES256 encrypted) for storing terabytes of geospatial imagery and sensor data.
+*   Configured EKS with dual node groups: `stateless` (Spot instances, auto-scaling 2-8 nodes) and `redis` (On-Demand, dedicated with workload taints) for cost-optimized AI workloads.
 
-**Software Architect/Engineer (Infrastructure Focus)** | The Alfred Hospital, ICU | Melbourne, VIC
-*May 2009 – July 2015*
-*The Alfred is a major trauma center requiring 24/7/365 system availability.*
+**LLM Data Pretraining Pipeline**
+*   Engineered a high-performance **Python pipeline** (Pydantic V2, Typer CLI, Pandas, PyArrow) for processing HuggingFace Uncopyrighted Pile records into tokenized datasets for LLM pre-training.
+*   Implemented automated **PII removal** (emails, phones, SSN, patient IDs), content-hash **deduplication**, and **BPE tokenization** (configurable vocab size, 50K default) to efficiently handle large-scale corpora.
+*   Containerized the entire pipeline using **Docker** (multi-stage build, python:3.10-slim) with resource limits for reproducible execution across disparate compute environments.
 
-*   Architected and built a mission-critical (24/7/365) Java SOA-based Clinical Information System focusing on high-availability and secure integration with diverse hospital systems (PAS, Philips Monitors, Pathology, Billing) via HL7 messaging (Mirth broker) and web services (Glassfish).
-*   Integrated real-time physiological data feeds from bedside monitors using Java, Mirth, PostgreSQL, and RabbitMQ.
-*   Developed distributed dashboard system (Qt/C++) using RabbitMQ for reliable messaging.
-*   Managed supporting databases (SQLServer, MySQL, PostgreSQL) and messaging infrastructure (RabbitMQ).
-
-**(Earlier Software Development roles demonstrating foundational skills available upon request)**
-
-**Education**
+### Education
 
 **Bachelor of Engineering (B.Eng.), Software Engineering**
 University of Western Australia | Perth, WA | Graduated 2004
-
-**(Incomplete B.Eng. Mechanical Engineering also attended)**
 
 ---
