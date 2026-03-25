@@ -1,4 +1,4 @@
-**MIGUEL DE SOUSA**
+# MIGUEL DE SOUSA
 Olinda VIC 3788 | 0497 646 933 | miguel.desousa@protonmail.com
 
 ---
@@ -18,6 +18,10 @@ Elite Cloud Native and GitOps Engineer with 15+ years designing, provisioning, a
 *   **API Management:** APISIX API Gateway (Helm chart 2.10.0), WSO2 APIM, NGINX Ingress Controller, token-based authentication
 *   **CI/CD & Automation:** Jenkins, GitLab CI, Bamboo, GitHub Workflows, ArgoCD, Bash/Python scripting
 *   **Security & Observability:** HashiCorp Vault (cross-cloud secrets injection), PII/ISO 27001 compliance, Prometheus, Grafana, ELK, Datadog
+
+### GitHub
+
+[https://github.com/miguel-tronix](https://github.com/miguel-tronix)
 
 ### Professional Experience
 

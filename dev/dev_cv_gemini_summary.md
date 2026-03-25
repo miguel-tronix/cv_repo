@@ -1,4 +1,4 @@
-**MIGUEL DE SOUSA**
+# MIGUEL DE SOUSA
 Olinda VIC 3788 | 0497 646 933 | miguel.desousa@protonmail.com
 
 ---
@@ -19,6 +19,10 @@ Accomplished Software Architect and Senior Python Developer with 15+ years build
 *   **Infrastructure as Code:** Terraform, Ansible (kubernetes.core), CloudFormation, AWS CDK
 *   **Databases:** PostgreSQL (standard, pgvector for embeddings), MongoDB, DynamoDB, MySQL, Redis
 *   **Observability:** Prometheus, Grafana, ELK, Datadog, CloudWatch
+
+### GitHub
+
+[https://github.com/miguel-tronix](https://github.com/miguel-tronix)
 
 ### Professional Experience
 

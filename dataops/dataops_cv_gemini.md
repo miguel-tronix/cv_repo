@@ -1,4 +1,4 @@
-**MIGUEL DE SOUSA**
+# MIGUEL DE SOUSA
 Olinda VIC 3788 | 0497 646 933 | miguel.desousa@protonmail.com
 
 ---
@@ -18,6 +18,10 @@ Exceptional AI Infrastructure and DataOps Engineer combining deep software engin
 *   **MLOps & Observability:** Prometheus, Grafana, ELK, Datadog, CloudWatch, MLflow
 *   **Programming:** Python (FastAPI, Pydantic V2, Typer, Pandas, PyArrow), Golang, Scala, Java
 *   **Streaming & Messaging:** Apache Kafka, MQTT (EMQX 5.8), RabbitMQ, Redis, Celery
+
+### GitHub
+
+[https://github.com/miguel-tronix](https://github.com/miguel-tronix)
 
 ### Professional Experience
 

@@ -1,22 +1,28 @@
-**Miguel de Sousa**
+# MIGUEL DE SOUSA
 Olinda VIC 3788 | 0497 646 933 | miguel.desousa@protonmail.com
 
-**Summary**
+---
 
-Highly accomplished Senior DevOps Engineer and Cloud & Security Specialist with over 15 years of comprehensive experience spanning enterprise (NetApp, ANZ Bank), government (Telstra SNE, Law Enforcement), and critical healthcare (Alfred Hospital ICU) sectors. Proven expertise in architecting, developing, securing, and managing complex, high-availability (24/7/365), and mission-critical systems. Adept at leading CI/CD pipeline implementation for large-scale microservice architectures (100+ services), significantly reducing security risks (achieving zero compliance violations in LEA projects, 95% reduction in billing errors), optimizing cloud expenditure (30% cost reduction), and boosting system performance (40% reduction in edge processing time). Recent work includes architecting AI RAG agents (DeepDivee), refactoring high-performance FastAPI ERP platforms (>100% speedup), and building cloud-native geospatial AI platforms on AWS EKS. Deep proficiency in Kubernetes, multi-cloud environments (AWS, GCP, Azure), security hardening (PII, ISO 27001, Log Masking), infrastructure-as-code (Terraform, CloudFormation, CDK), and data engineering practices. Seeking to leverage extensive technical leadership and hands-on skills in a challenging DevOps, SRE, or Cloud Architect role.
+### Summary
 
-**Technical Skills**
+Highly accomplished Senior Software/DevOps Engineer and Cloud & Security Specialist with over 15 years of comprehensive experience spanning enterprise (NetApp, ANZ Bank), government (Telstra SNE), and critical healthcare (Alfred Hospital ICU) sectors. Proven expertise in architecting, developing, securing, and managing complex, high-availability (24/7/365), and mission-critical systems. Adept at leading CI/CD pipeline implementation for large-scale microservice architectures (100+ services), significantly reducing security risks (achieving zero compliance violations in LEA projects, 95% reduction in billing errors), optimizing cloud expenditure (30% cost reduction), and boosting system performance (40% reduction in edge processing time). Recent work includes architecting AI RAG agents (DeepDivee), refactoring high-performance FastAPI ERP platforms (>100% speedup), and building cloud-native geospatial AI platforms on AWS EKS. Deep proficiency in Kubernetes, multi-cloud environments (AWS, GCP, Azure), security hardening (PII, ISO 27001, Log Masking), infrastructure-as-code (Terraform, CloudFormation, CDK), and data engineering practices. Seeking to leverage extensive technical leadership and hands-on skills in a challenging DevOps, SRE, or Cloud Architect role.
+
+### Technical Skills
 
 *   **DevOps/Cloud Platforms:** OpenShift, Kubernetes (K8s, EKS), ArgoCD, Helm, AWS (EC2, Lambda, API Gateway, DynamoDB, RDS, ECS, S3, Redshift, Athena, Glue, CloudWatch, CloudTrail, CloudFront, Cognito), GCP (GKE, PubSub, BigTable, CloudRun, CloudFunctions), Azure (Cloud Services, Azure SQL, Blob Storage, WAF, SDN), Docker, Serverless Architectures
 *   **CI/CD & Automation:** Jenkins, GitLab CI, Bamboo, GitHub Workflows, Ansible, Terraform, CloudFormation, AWS CDK, Puppet, Python scripting, Bash scripting
-*   **Programming Languages:** Python (FastAPI, Django, Pydantic V2), Golang (Go), Java (SE 6/7/8+), Scala, SQL, C++, JavaScript (Node.js, AngularJS)
+*   **Programming Languages:** Python (FastAPI, Django, Pydantic V2), Golang (Go), Java (SE 7/8/9/11/17+), Scala, SQL, C++, JavaScript (Node.js, AngularJS)
 *   **AI/ML Infrastructure:** RAG Agents (LangChain, HuggingFace), pgvector, sentence-transformers, LLM data pretraining pipelines (BPE tokenization, PII removal, deduplication), S3 Data Lakes for ML
 *   **Security:** WSO2 API Management (APIM), APISIX API Gateway, Token Authentication, Log Masking, PII Compliance (ISO 27001), HashiCorp Vault, Network Security (Firewalls, WAF, Security Groups, DMZs, VPNs, SDN), IAM
 *   **Data Engineering & MLOps:** Apache Spark, Apache Kafka, Airflow, RabbitMQ, MongoDB, Nifi, Talend, Databricks, Elasticsearch, Logstash, Kibana (ELK), Grafana, Loki, Prometheus, Datadog, HDFS, Zookeeper, PostgreSQL (PostGIS, CloudNativePG), MySQL, Redis
 *   **Operating Systems & Networking:** Linux (RHEL, CentOS), Windows Server, Nginx, Squid Proxy, Networking concepts (TCP/IP, UDP, DNS, Load Balancing)
 *   **Frameworks & Libraries:** FastAPI, Django, Spring (Java), Chalice (Python), Boto3, Qt/C++, JPA, Cayenne
 
-**Professional Experience**
+### GitHub
+
+[https://github.com/miguel-tronix](https://github.com/miguel-tronix)
+
+### Professional Experience
 
 **Senior Software Engineer** | Quantaco | Melbourne, VIC
 *October 2025 – March 2026*
@@ -30,7 +36,7 @@ Highly accomplished Senior DevOps Engineer and Cloud & Security Specialist with 
 **Architect and CTO** | Azez | Melbourne, VIC
 *April 2025 – September 2025*
 
-*   Architected and implemented a RAG Agent (DeepDivee) using FastAPI, LangChain, HuggingFace libraries, and other AI tools to provide contra-indication information for drugs/medical interventions based on PubMed article summaries and LLM reasoning.
+*   Architected and implemented a AI/ML RAG Agent (DeepDivee) using FastAPI, LangChain, HuggingFace libraries, and other AI tools to provide contra-indication information for drugs/medical interventions based on PubMed article summaries and LLM reasoning.
 *   Deployed the DeepDivee Agent in a Kubernetes ecosystem comprising Gitea, ArgoCD, PostgreSQL with pgvector for Vector Search, MinIO, HashiCorp Vault, APISIX API Gateway, and FastAPI microservices.
 
 **DevOps Engineer / Site Reliability Engineer** | Telstra Special Networks Engineering (SNE) | Melbourne, VIC
@@ -153,7 +159,7 @@ Highly accomplished Senior DevOps Engineer and Cloud & Security Specialist with 
 
 **(Earlier roles as Web Developer/System Administrator available upon request)**
 
-**Education**
+### Education
 
 **Bachelor of Engineering (B.Eng.), Software Engineering**
 University of Western Australia | Perth, WA
