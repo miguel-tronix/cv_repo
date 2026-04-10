@@ -1,0 +1,130 @@
+MIGUEL DE SOUSA
+Senior DevOps & Python Engineer | AI Infrastructure & LLMOps
+Australian Citizen | Melbourne, VIC
+Phone: 0497 646 933 | Email: miguel.desousa@protonmail.com | GitHub: github.com/miguel-tronix
+Available for Contract & Permanent Roles
+
+------------------------------------------------------------------------
+
+SUMMARY
+
+Exceptional AI Infrastructure and DataOps Engineer combining deep software engineering
+foundations with cutting-edge LLMOps and ML operations expertise. Proven capability to
+orchestrate intensive AI/ML workloads on Amazon EKS with GPU-enabled node pools, build
+scalable S3 Data Lakes, and handle complex spatial queries using PostgreSQL with PostGIS.
+Experienced provisioning environments for LLM data pre-training and deploying autonomous
+Scalable AI Agents to Kubernetes. Expert in Infrastructure as Code (Terraform, Ansible)
+applied directly to AI/ML environments, with FinOps discipline through cost-optimised
+Spot/On-Demand EKS node groups for ML workloads.
+
+KEY METRICS
+- >100% throughput improvement on ERP FastAPI platform (Quantaco)
+- 60% improvement in ML model deployment lead-time via CI/CD automation (Telstra SNE)
+- 40% reduction in data processing latency via edge Spark deployment (Telstra SNE)
+- 95% reduction in billing errors on $2M+ annual billing platform (NetApp)
+- 10TB+ daily data lake management (Sportsbet)
+
+------------------------------------------------------------------------
+
+TECHNICAL SKILLS
+
+AI/LLM Engineering (LLMOps & Scalable Agents):
+Amazon EKS for ML workloads (GPU node pools), LLM data pre-training pipelines (BPE
+tokenisation, PII removal, deduplication), RAG Agent deployment (LangChain, HuggingFace
+sentence-transformers, pgvector), Vector DBs (pgvector - 768-dim embeddings, cosine similarity),
+LLM Evaluation & Observability (LangSmith, Prometheus), Python Automation
+
+Data Platforms & Geospatial:
+S3 Data Lakes (versioned, AES256 encrypted), PostgreSQL 16.1 with PostGIS, Apache Spark,
+Kafka, Airflow, Databricks, Redshift, Athena, Glue, NiFi, Talend
+
+Platform Engineering & Infrastructure as Code:
+Terraform (AWS provider 5.x - EKS, VPC, RDS, S3), Ansible, AWS CDK, CloudFormation,
+Kubernetes (EKS 1.29, OpenShift), Docker, ArgoCD, Helm, FinOps (Spot/On-Demand optimisation)
+
+MLOps & Observability:
+Prometheus, Grafana, ELK, Datadog, CloudWatch, LangSmith
+Streaming: Apache Kafka, MQTT (EMQX 5.8), RabbitMQ, Redis, Celery
+Programming: Python (FastAPI, Pydantic V2, Typer, Pandas, PyArrow), Golang, Scala, Java
+
+------------------------------------------------------------------------
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer | Quantaco | Melbourne, VIC
+October 2025 - March 2026
+
+- Achieved >100% throughput improvement on a large ERP Microservices FastAPI platform by
+  refactoring to Pydantic V2, AsyncIO, and FastAPI best practices - eliminating a major
+  Developer Experience (DevEx) bottleneck.
+- Reduced database load and improved API response times by 60% via Redis caching layer
+  (FinOps savings on infrastructure costs).
+- Implemented Terraform for GitOps-driven continuous deployment (Infrastructure as Code).
+
+Architect and CTO | Azez | Melbourne, VIC
+April 2025 - September 2025
+
+- Architected and shipped DeepDivee - a production-grade RAG Agent using FastAPI, LangChain,
+  HuggingFace sentence-transformers (all-MiniLM-L6-v2), and pgvector for semantic vector search
+  over PubMed medical literature - full LLMOps lifecycle from training data to production inference.
+- Deployed the AI Agent in a Kubernetes ecosystem with PostgreSQL Vector Search (768-dimension
+  embeddings, cosine similarity), MinIO, and FastAPI microservices (Scalable Agent deployment).
+
+DevOps Engineer / Site Reliability Engineer | Telstra SNE | Melbourne, VIC
+October 2022 - April 2025
+
+- Reduced national security data processing latency by 40% via low-latency Spark edge jobs
+  (FinOps and Platform Engineering outcome).
+- Provisioned and managed Amazon EKS clusters for AI/ML workloads with GPU node pools and
+  auto-scaling, reducing model deployment lead-time by 60%.
+- Built and maintained S3 Data Lakes (versioned, AES256 encrypted) integrated with Athena.
+- Implemented CI/CD pipelines for ML model deployment using Jenkins, GitLab, and ArgoCD (LLMOps).
+
+Senior Software Engineer | NetApp | Melbourne, VIC
+January 2020 - May 2022
+
+- Reduced invoice errors by 95% by designing the Keystone Billing engine (Python, Golang,
+  RabbitMQ, MongoDB, Zuora) tracking $2M+ annual usage data (FinOps).
+
+Data Engineer | Sportsbet | Melbourne, VIC
+September 2019 - November 2019
+
+- Managed large-scale AWS data lake (10TB+ daily processing) using NiFi, Talend, AWS Glue,
+  Databricks, Redshift, and Athena.
+- Automated PII sanitisation of chat logs via Talend workflows before Kafka ingestion (ISO 27001).
+
+Big Data DevOps Engineer | Telstra (CTO/Big Data Analytics) | Melbourne, VIC
+October 2017 - December 2018
+
+- Eliminated data loss in 500Gb+ daily LBS ingestion by optimising Spark jobs and the
+  NiFi/Kafka/HDFS ingestion pipeline.
+- Built GCP PoC cluster (GKE, PubSub, BigTable) evaluating cloud-native Platform Engineering
+  data platform alternatives.
+
+------------------------------------------------------------------------
+
+RECENT PROJECTS
+
+Traific Geospatial AI Platform
+- Reproducible AI platform on Amazon EKS 1.29 with Terraform (VPC, RDS PostgreSQL 16.1 +
+  PostGIS, S3 Data Lake, 3-AZ isolation) - Infrastructure as Code.
+- FinOps-optimised EKS: Spot instances (stateless, 2-8 auto-scaling) + On-Demand (Redis).
+
+LLM Data Pretraining Pipeline (LLMOps)
+- Python Automation pipeline (Pydantic V2, Typer, Pandas, PyArrow) processing HuggingFace
+  Uncopyrighted Pile records into tokenised LLM pre-training datasets.
+- Automated PII removal, content-hash deduplication, and BPE tokenisation (50K vocab).
+- Containerised as Docker multi-stage build and Kubernetes Job (production LLMOps tooling).
+
+DeepDivee AI Agent (Scalable Agents)
+- Production RAG Agent: FastAPI + LangChain + HuggingFace + pgvector - full LLMOps lifecycle.
+- Deployed as Scalable Agent in GitOps Kubernetes: ArgoCD, Vault, APISIX, Prometheus/Grafana.
+
+------------------------------------------------------------------------
+
+EDUCATION
+
+Bachelor of Engineering (B.Eng.), Software Engineering
+University of Western Australia | Perth, WA | Graduated 2004
+
+------------------------------------------------------------------------

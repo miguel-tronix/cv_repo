@@ -1,0 +1,131 @@
+MIGUEL DE SOUSA
+Senior DevOps & Python Engineer | Python Microservices & Agentic AI
+Australian Citizen | Melbourne, VIC
+Phone: 0497 646 933 | Email: miguel.desousa@protonmail.com | GitHub: github.com/miguel-tronix
+Available for Contract & Permanent Roles
+
+------------------------------------------------------------------------
+
+SUMMARY
+
+Accomplished Software Architect and Senior Python Developer with 15+ years building scalable,
+resilient backend systems. Expert in architecting and deploying high-performance FastAPI
+applications and robust Django solutions to Kubernetes clusters, with deep focus on Developer
+Experience (DevEx), resilience, and Python Automation. Recent highlights: refactored a large ERP
+FastAPI platform achieving >100% performance speedup, and architected the DeepDivee Scalable
+Agent - a production-grade RAG AI system with vector search capabilities. Advanced DevOps
+knowledge (Terraform, Ansible, ArgoCD) used as a superpower: every Python microservice is
+flawlessly deployed, observable, and highly available.
+
+KEY METRICS
+- >100% API throughput improvement via Pydantic V2 / AsyncIO refactor (Quantaco)
+- 60% improvement in API response times via Redis caching (Quantaco)
+- 70% reduction in Redis API response times across 100+ Python microservices (Telstra SNE)
+- 99.99% uptime SLA for Law Enforcement Agency systems (Telstra SNE)
+- 95% reduction in billing errors on $2M+ annual billing platform (NetApp)
+
+------------------------------------------------------------------------
+
+TECHNICAL SKILLS
+
+Python & Backend Engineering (Python Automation):
+FastAPI (Pydantic V2, AsyncIO, OpenAPI, dependency injection), Django (DRF, Celery, ORM
+optimisation), Flask, Spring (Java)
+Languages: Python 3.10+ (Primary), Golang, Java, Scala, SQL
+
+API & Agent Development:
+RESTful APIs, GraphQL, OpenAPI/Swagger, WSO2 APIM, APISIX Gateway, RAG Agent development
+(LangChain, HuggingFace), Scalable Agents with auto-scaling Kubernetes deployments
+
+Performance & Reliability:
+Redis (cluster mode, StatefulSet with LRU eviction, Sentinel), Memcached, AsyncIO, connection
+pooling (asyncpg, SQLAlchemy 2.0 async ORM), Pydantic V2 validation, Developer Experience (DevEx)
+
+Infrastructure & Observability (DevSecOps):
+Kubernetes (EKS, OpenShift), Docker, ArgoCD, Helm, Terraform, Ansible, CloudFormation, AWS CDK,
+Prometheus, Grafana, ELK, Datadog, CloudWatch, HashiCorp Vault
+Databases: PostgreSQL (pgvector), MongoDB, DynamoDB, MySQL, Redis
+
+------------------------------------------------------------------------
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer | Quantaco | Melbourne, VIC
+October 2025 - March 2026
+
+- Achieved >100% throughput improvement on a large ERP Microservices FastAPI platform by
+  refactoring to Pydantic V2, AsyncIO, and FastAPI best practices - resolving a major
+  Developer Experience (DevEx) bottleneck (smoke tests, unit tests, exception handling, pagination).
+- Reduced database load and improved API response times by 60% via Redis StatefulSet-based
+  caching layer (Redis 7, LRU eviction policy).
+- Deployed FastAPI microservices to Kubernetes via Ansible: PVC-backed storage, GCP secrets
+  injection, NGINX Ingress configuration.
+- Deployed Django Customer Configurator backend to Kubernetes with PostgreSQL and Redis.
+- Configured GCP services (CloudBuild, CloudRun, CloudFunctions) for blue/green Python deployments.
+
+Architect and CTO | Azez | Melbourne, VIC
+April 2025 - September 2025
+
+- Shipped DeepDivee Scalable Agent - a production RAG AI system using FastAPI, LangChain,
+  HuggingFace, and pgvector providing drug contra-indication insights over PubMed literature
+  (Python Automation across the full AI application stack).
+- Designed with SQLAlchemy 2.0 async ORM (asyncpg), connection pooling (pool_size=5,
+  max_overflow=10), and Pydantic 2.x settings management.
+- Deployed as FastAPI microservice in Kubernetes GitOps ecosystem (ArgoCD automated sync).
+
+DevOps Engineer / Site Reliability Engineer | Telstra SNE | Melbourne, VIC
+October 2022 - April 2025
+
+- Reduced Redis API response times by 70% via Redis 7-alpine StatefulSet caching layer
+  (allkeys-lru eviction) across 100+ Python microservices.
+- Maintained 99.99% uptime SLA for Law Enforcement Agency systems (FastAPI, Django on
+  OpenShift Kubernetes with NGINX Ingress, PVCs, auto-scaling).
+- Designed highly concurrent FastAPI and Django REST APIs with async processing, ORM
+  optimisation, and OpenAPI documentation.
+- Deployed APISIX and WSO2 API Gateways for token authentication and PII log masking (DevSecOps).
+
+Senior Software Engineer | NetApp | Melbourne, VIC
+January 2020 - May 2022
+
+- Reduced invoice errors by 95% by leading the Keystone Billing engine (Python, Golang,
+  RabbitMQ, MongoDB, Zuora) tracking $2M+ annual usage data.
+- Resolved critical concurrency bottlenecks in ONTAP resource allocation via Redis caching
+  and Python Automation strategies.
+
+DevOps Engineer (Contract) | ANZ Bank | Melbourne, VIC
+May 2019 - August 2019
+
+- Designed AWS Serverless backend using Python (Chalice, Boto3), Lambda, API Gateway, and
+  DynamoDB for next-gen EFTPOS payment systems (1,000+ merchant pilot).
+- Managed infrastructure via CloudFormation using AWS CDK (Python) - full Python Automation
+  of cloud provisioning.
+
+Software Architect/Engineer | The Alfred Hospital, ICU | Melbourne, VIC
+May 2009 - July 2015
+
+- Architected mission-critical Clinical Information System (Java SOA) running 24/7/365,
+  with RESTful hospital system integrations (Patient Admission, Philips Monitors, Pathology).
+- Built "NutritionWeb" - world's first electronic management system for clinical dieticians.
+  Alfred team won "World Best Nutritional Practices for Critically-Ill Patients" (2012).
+
+------------------------------------------------------------------------
+
+KEY ARCHITECTURAL HIGHLIGHTS
+
+- FastAPI at Scale: Async microservices with OpenAPI, Pydantic V2, dependency injection,
+  AsyncIO for high-throughput processing (Python Automation)
+- Scalable Agents: Production RAG AI Agent (FastAPI + LangChain + pgvector) deployed to
+  Kubernetes with ArgoCD, auto-scaling, and Prometheus observability
+- Redis Mastery: Redis 7 StatefulSets with LRU eviction, PVC storage, ClusterIP -
+  60-70% response time improvements across multiple deployments
+- DevSecOps Backbone: Terraform, Ansible, ArgoCD - every microservice flawlessly
+  deployed, observable, and highly available
+
+------------------------------------------------------------------------
+
+EDUCATION
+
+Bachelor of Engineering (B.Eng.), Software Engineering
+University of Western Australia | Perth, WA | Graduated 2004
+
+------------------------------------------------------------------------

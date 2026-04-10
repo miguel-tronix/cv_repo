@@ -1,0 +1,124 @@
+MIGUEL DE SOUSA
+Senior DevOps & Python Engineer | Platform Engineering & DevSecOps
+Australian Citizen | Melbourne, VIC
+Phone: 0497 646 933 | Email: miguel.desousa@protonmail.com | GitHub: github.com/miguel-tronix
+Available for Contract & Permanent Roles
+
+------------------------------------------------------------------------
+
+SUMMARY
+
+Elite Cloud Native and GitOps Engineer with 15+ years designing, provisioning, and automating
+highly available cloud architectures. Specialist in Platform Engineering, provisioning
+enterprise-grade AWS infrastructure using Terraform (EKS, RDS, S3 Data Lakes, VPC network
+isolation) and orchestrating multi-service deployments via Ansible and ArgoCD GitOps workflows.
+Expert in DevSecOps - achieving zero compliance violations across 100+ LEA microservices and
+maintaining 99.99% uptime SLA for mission-critical government systems. Experienced in FinOps
+optimisation managing cost across Spot and On-Demand node groups.
+
+KEY METRICS
+- 40% reduction in edge processing latency (Telstra SNE Spark deployment)
+- 95% reduction in billing errors on $2M+ annual billing platform (NetApp)
+- 60% reduction in API response times via Redis caching (Quantaco)
+- 99.99% uptime SLA maintained for mission-critical government LEA systems
+- Zero compliance violations across 100+ Law Enforcement Agency microservices
+
+------------------------------------------------------------------------
+
+TECHNICAL SKILLS
+
+Cloud & Infrastructure (Platform Engineering):
+AWS (EKS, RDS, S3, Lambda, API Gateway, DynamoDB, Redshift, CloudWatch, CloudFront, Cognito),
+GCP (GKE, CloudRun, CloudFunctions, CloudBuild, PubSub, BigTable), Azure (SQL, Blob, WAF, SDN),
+Kubernetes (EKS 1.29, OpenShift), Terraform, Ansible, CloudFormation, AWS CDK, Helm, ArgoCD,
+Docker, FinOps & Cost Optimisation
+
+DevSecOps & API Management:
+APISIX API Gateway, WSO2 APIM, NGINX Ingress, HashiCorp Vault (cross-cloud secrets injection),
+PII/ISO 27001 compliance, Log Masking, Token-based Authentication, SAST/DAST scanning
+
+CI/CD & Observability:
+Jenkins, GitLab CI, Bamboo, GitHub Actions, Prometheus, Grafana, Loki, ELK, Datadog,
+OpenTelemetry
+
+------------------------------------------------------------------------
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer | Quantaco | Melbourne, VIC
+October 2025 - March 2026
+
+- Reduced API response times by 60% by engineering a Redis StatefulSet-based caching and
+  session management layer, directly lowering database load (FinOps impact).
+- Accelerated release cycles by implementing Terraform for GitOps-driven continuous deployment
+  across dev, staging, and production on GCP (Infrastructure as Code).
+- Strengthened DevSecOps posture by building GitHub Actions CI/CD pipelines with automated
+  testing, security scanning, and blue/green deployment to GCP (CloudBuild, CloudRun).
+
+Architect and CTO | Azez | Melbourne, VIC
+April 2025 - September 2025
+
+- Architected and deployed the DeepDivee Scalable Agent (RAG/LangChain AI system) into a full
+  Kubernetes GitOps ecosystem: Gitea, ArgoCD (automated sync/prune/self-heal), PostgreSQL/
+  pgvector, MinIO, HashiCorp Vault, and APISIX API Gateway.
+- Eliminated cross-cloud credential risk by managing cross-cloud secrets via dynamic injection of
+  GCP credentials into Kubernetes Secrets (DevSecOps).
+
+DevOps Engineer / Site Reliability Engineer | Telstra SNE | Melbourne, VIC
+October 2022 - April 2025
+
+- Provisioned highly available AWS infrastructure using Terraform (EKS, RDS PostgreSQL multi-AZ,
+  S3 Data Lakes AES256 encrypted, VPC private subnets) - reduced provisioning time 70%.
+- Achieved zero compliance violations by orchestrating 100+ LEA microservices to OpenShift
+  Kubernetes using Ansible playbooks and ArgoCD GitOps (DevSecOps).
+- Cut national security data processing latency by 40% using optimised Spark edge node jobs
+  (FinOps and performance).
+- Deployed CloudNativePG operator for HA PostgreSQL clusters (2+ instances, 15Gi storage) with
+  zero data loss and automatic failover.
+- Maintained 99.99% uptime SLA for mission-critical API platforms (Prometheus/Grafana).
+
+Staff Engineer | NetApp | Melbourne, VIC
+January 2020 - May 2022
+
+- Reduced invoice errors by 95% by engineering the Keystone Billing engine (Python, Golang,
+  MongoDB, RabbitMQ, Zuora) tracking $2M+ annual storage usage (FinOps).
+- Designed and provisioned multi-cloud infrastructure using Terraform and Ansible across AWS,
+  GCP, and Azure (Infrastructure as Code).
+
+Big Data DevOps Engineer | Telstra (CTO/Big Data Analytics) | Melbourne, VIC
+October 2017 - December 2018
+
+- Provisioned and managed Spark clusters using Terraform and Ansible, processing 500Gb+ daily
+  LBS data with zero data loss.
+- Built GCP PoC environment (GKE, PubSub, BigTable) evaluating Platform Engineering alternatives.
+
+DevOps Engineer | Telstra Health | Melbourne, VIC
+February 2016 - September 2017
+
+- Deployed healthcare components in secure Azure cloud environment (SDNs, DMZ).
+- Designed Security Vulnerability assessment tool integrating Atlassian with Splunk - an early
+  DevSecOps implementation for automated ticketing and patch management.
+
+------------------------------------------------------------------------
+
+RECENT PROJECTS
+
+Traific Geospatial AI Platform (AWS)
+- Terraform-provisioned AWS environment: VPC, EKS 1.29, RDS PostgreSQL 16.1/PostGIS, S3
+  Data Lake - Infrastructure as Code across 3 AZs.
+- FinOps-optimised EKS: Spot instances (stateless, 2-8 auto-scaling) + On-Demand (Redis,
+  dedicated taint).
+
+Kubernetes GitOps Stack (Platform Engineering)
+- Complete GitOps platform via Ansible and ArgoCD: CloudNativePG, Redis StatefulSets,
+  APISIX, Gitea, Kubernetes Dashboard - automated sync with self-healing.
+- DevSecOps: GCP credentials dynamically injected into Kubernetes Secrets via HashiCorp Vault.
+
+------------------------------------------------------------------------
+
+EDUCATION
+
+Bachelor of Engineering (B.Eng.), Software Engineering
+University of Western Australia | Perth, WA | Graduated 2004
+
+------------------------------------------------------------------------
